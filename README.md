@@ -80,6 +80,7 @@ The author makes no guarantee of identical results across all environments.
 python code_YOLO-cls.py
 ```
 
+---
 ## Research Highlights
 Problem: Hotspot detection in 193i lithography at sub-50nm CD, using simulated layout images.
 
@@ -112,3 +113,7 @@ Email: [yutsewu0209@gmail.com]
 ### 📝 License
 
 [MIT License](LICENSE)
+---
+# Acknowledgements
+
+Supported by Taiwan’s National Technology and Science Council (NTSC), project number 113-2222-E-110-004.
