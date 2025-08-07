@@ -77,6 +77,7 @@ The author makes no guarantee of identical results across all environments.
 2. Run:
 
 ```bash
+pip install ultralytics
 python code_YOLO-cls.py
 ```
 
