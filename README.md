@@ -79,15 +79,36 @@ The author makes no guarantee of identical results across all environments.
 ```bash
 python code_YOLO-cls.py
 ```
+
+## Research Highlights
+Problem: Hotspot detection in 193i lithography at sub-50nm CD, using simulated layout images.
+
+Approach: Train and evaluate YOLOv8 for binary classification (hotspot vs. good).
+
+Augmentation: Morphological and frequency-domain transformations proved effective in boosting model performance.
+
+### Results:
+
+- YOLOv8: F1 = 0.75, accuracy = 0.8
+
+See [Full Paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13655/136550Z/Predicting-sub-50-nm-trench-hotspots-in-ArFi-lithography-for/10.1117/12.3070243.short)
+
+### Limitations & Future Work
+Dataset is based on Prolith simulation; performance on silicon (real) data yet to be validated.
+
+Next steps include EUV simulation, larger datasets, and integrating generative AI for mask repair.
+
+### Citation
+If you use this code or data, please cite:
+Bo-Yin Tseng, Yu Tse Wu, Arthur Lin, Chun-Ming (Albert) Wang (2025). Predicting sub 50 nm trench hotspots in ArFi lithography for DFM using machine learning. Photomask Japan 2025 (PMJ2025).
+
+Contact
+Author: Yu Tse Wu (吳雨澤)
+Institute of Innovative Semiconductor Manufacturing, National Sun Yat-sen University
+GitHub: [@Yu-Tse](https://github.com/Yu-Tse)
+Email: [yutsewu0209@gmail.com]
+
 ---
 ### 📝 License
 
 [MIT License](LICENSE)
-
----
-## 🙋‍♂️ Author
-
-**Yu-Tse Wu** (吳雨澤)  
-*Master’s Student at the Institute of Innovation and Semiconductor Manufacturing, National Sun Yat-sen University*
-
-GitHub: [@Yu-Tse](https://github.com/Yu-Tse)
