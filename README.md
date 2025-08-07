@@ -78,12 +78,13 @@ The author makes no guarantee of identical results across all environments.
 
 ```bash
 python code_YOLO-cls.py
-
+```
+---
 ### 📝 License
 
 [MIT License](LICENSE)
 
-
+---
 ## 🙋‍♂️ Author
 
 **Yu-Tse Wu** (吳雨澤)  
